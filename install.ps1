@@ -43,14 +43,17 @@ scoop install -g `
     gopass `
     gping `
     gradle `
-    mpv `
+    hexyl `
+    miniserve `
+    neofetch `
     neovim `
+    onefetch `
+    procs `
     ripgrep `
     sbt `
     scala `
     starship `
     sudo `
-    windows-terminal `
     zoxide `
     zulufx8-jdk
 
