@@ -74,7 +74,7 @@ set visualbell                                      " Flash the screen instead o
 set wildchar=<Tab> wildmenu                         " Tab complete with files (e.g. `:e`)
 set wildmode=list:longest,list:full                 " 1st Tab completes to longest common string, 2nd+ cycles through options.
 
-let s:undodir = $env:ProgramData . "/nvim/undo"
+let s:undodir = "C:/ProgramData/nvim/undo"
 if !isdirectory(s:undodir)| call mkdir(s:undodir, "p", 0700)| endif
 set path=.,/usr/include,,**                         " Add ** to the search path so :find x works recursively.
 if exists('+breakindent')| set breakindent| let &showbreak = '↳   '| set cpo+=n| end " Nicer line wrapping for long lines.
