@@ -62,26 +62,37 @@ scoop install -g `
     7zip `
     aria2 `
     bottom `
+    clangd `
+    cmake `
     curl `
     delta `
     fzf `
     gcc `
+    gdb `
     git `
     gitui `
     go `
     gopass `
     gping `
     gradle `
+    gzip `
     hexyl `
+    hurl `
+    hyperfine `
+    llvm `
     miniserve `
     neofetch `
     neovim `
+    ninja `
     onefetch `
     procs `
     ripgrep `
     sbt `
     scala `
     starship `
+    tar `
+    unzip `
+    zip `
     zoxide `
     zulufx8-jdk
 
