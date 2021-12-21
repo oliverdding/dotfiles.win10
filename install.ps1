@@ -41,13 +41,17 @@ $env:RUSTUP_UPDATE_ROOT = 'https://rsproxy.cn/rustup'
 $env:K9SCONFIG = "$env:XDG_CONFIG_HOME\k9s"
 [Environment]::SetEnvironmentVariable('K9SCONFIG', $env:K9SCONFIG, 'User')
 
-
+$env:COURSIER_CACHE = "$env:XDG_DATA_HOME\Coursier\Cache\v1"
+[Environment]::SetEnvironmentVariable('COURSIER_CACHE', $env:COURSIER_CACHE, 'User')
 
 $env:SCOOP_GLOBAL = "$env:ProgramData\Scoop"
 [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
 
 $env:GOPROXY = 'https://goproxy.cn'
 [Environment]::SetEnvironmentVariable('GOPROXY', $env:GOPROXY, 'Machine')
+
+$env:HOSTS = 'C:\Windows\System32\drivers\etc\hosts'
+[Environment]::SetEnvironmentVariable('HOSTS', $env:HOSTS, 'Machine')
 
 # Install packages
 
